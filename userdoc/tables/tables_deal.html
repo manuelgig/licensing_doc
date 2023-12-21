@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>attached_document_types &mdash; licensing 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/mystyle.css?v=d78a08c7" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js?v=e031e9a9"></script>
+        <script src="../../_static/doctools.js?v=888ff710"></script>
+        <script src="../../_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            licensing
+              <img src="../../_static/KULEUVEN_FEB_Logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../user_main.html">User Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../download/dl_main.html">Download</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../github/git_main.html">Get the Git Repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">licensing</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">attached_document_types</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/userdoc/tables/tables_deal.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="attached-document-types">
+<span id="tables-attached-document-types-label"></span><h1>attached_document_types<a class="headerlink" href="#attached-document-types" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id1">
+<caption><span class="caption-text">attached_document_types</span><a class="headerlink" href="#id1" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>document_type</p></td>
+<td><p>text</p></td>
+<td><p>Type of document(s) attached to a deal (these documents are in BiosciDB, our database contains only the ‘contract’ and ‘patent list’ types)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="category">
+<span id="tables-category-label"></span><h1>category<a class="headerlink" href="#category" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id2">
+<caption><span class="caption-text">category</span><a class="headerlink" href="#id2" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_category</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of organization category</p></td>
+</tr>
+<tr class="row-odd"><td><p>category</p></td>
+<td><p>text</p></td>
+<td><p>Category of the organization involved in a deal</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="compound-name">
+<span id="tables-compound-name-label"></span><h1>compound_name<a class="headerlink" href="#compound-name" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id3">
+<caption><span class="caption-text">compound_name</span><a class="headerlink" href="#id3" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>compound</p></td>
+<td><p>text</p></td>
+<td><p>Name of the compound involved in a deal</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="contract-type">
+<span id="tables-contract-type-label"></span><h1>contract_type<a class="headerlink" href="#contract-type" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id4">
+<caption><span class="caption-text">contract_type</span><a class="headerlink" href="#id4" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>type</p></td>
+<td><p>text</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="deal">
+<span id="tables-deal-label"></span><h1>deal<a class="headerlink" href="#deal" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id5">
+<caption><span class="caption-text">deal</span><a class="headerlink" href="#id5" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>contract_date</p></td>
+<td><p>timestamp without time zone</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>deal_size</p></td>
+<td><p>double precision</p></td>
+<td><p>Size of the deal (in million $)</p></td>
+</tr>
+<tr class="row-odd"><td><p>maximum_share</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>deal_date</p></td>
+<td><p>timestamp without time zone</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>termination_date</p></td>
+<td><p>timestamp without time zone</p></td>
+<td><p>Termination date of the deal/agreement</p></td>
+</tr>
+<tr class="row-even"><td><p>has_tags</p></td>
+<td><p>integer</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>f_d_a_approved</p></td>
+<td><p>integer</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>upfront_cash</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>upfront_equity</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>contingent_equity</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>r_d_support</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>f_t_e_rate</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>loan</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>devreg_milestones</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>other_milestones</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>total_precommercial_payments</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>sales_milestones</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>e_f_r200_m</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>e_f_r500_m</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>e_f_r1_b</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>maximum_royalty</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>marketing_fee</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>transfer_price</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>manufacture_cost</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>profit_split</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>drug_mode_of_action</p></td>
+<td><p>text</p></td>
+<td><p>Drug’s mode of action</p></td>
+</tr>
+<tr class="row-odd"><td><p>total_equity</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>upfront_share</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>dev_share</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>sales_share</p></td>
+<td><p>double precision</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="deal-link">
+<span id="tables-deal-link-label"></span><h1>deal_link<a class="headerlink" href="#deal-link" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id6">
+<caption><span class="caption-text">deal_link</span><a class="headerlink" href="#id6" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>deal_link</p></td>
+<td><p>text</p></td>
+<td><p>URL to deal data &#64; BiosciDB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="deal-org-link">
+<span id="tables-deal-org-link-label"></span><h1>deal_org_link<a class="headerlink" href="#deal-org-link" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id7">
+<caption><span class="caption-text">deal_org_link</span><a class="headerlink" href="#id7" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier</p></td>
+</tr>
+<tr class="row-odd"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-even"><td><p>uuid_org</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of organization in the deals data</p></td>
+</tr>
+<tr class="row-odd"><td><p>org_role</p></td>
+<td><p>text</p></td>
+<td><p>Role played by the organization in the deal (licensee or licensor)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="deal-source">
+<span id="tables-deal-source-label"></span><h1>deal_source<a class="headerlink" href="#deal-source" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id8">
+<caption><span class="caption-text">deal_source</span><a class="headerlink" href="#id8" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>doc_source</p></td>
+<td><p>text</p></td>
+<td><p>Source of the pdf file</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="deal-subject">
+<span id="tables-deal-subject-label"></span><h1>deal_subject<a class="headerlink" href="#deal-subject" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id9">
+<caption><span class="caption-text">deal_subject</span><a class="headerlink" href="#id9" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>subject</p></td>
+<td><p>text</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="deal-types">
+<span id="tables-deal-types-label"></span><h1>deal_types<a class="headerlink" href="#deal-types" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id10">
+<caption><span class="caption-text">deal_types</span><a class="headerlink" href="#id10" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>type</p></td>
+<td><p>text</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="disease">
+<span id="tables-disease-label"></span><h1>disease<a class="headerlink" href="#disease" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id11">
+<caption><span class="caption-text">disease</span><a class="headerlink" href="#id11" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>disease</p></td>
+<td><p>text</p></td>
+<td><p>Disease treated by the drug the deal is about</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="doc-sum">
+<span id="tables-doc-sum-label"></span><h1>doc_sum<a class="headerlink" href="#doc-sum" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id12">
+<caption><span class="caption-text">doc_sum</span><a class="headerlink" href="#id12" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>doc_sum</p></td>
+<td><p>text</p></td>
+<td><p>Url to the document &#64; BiosciDB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="document-source">
+<span id="tables-document-source-label"></span><h1>document_source<a class="headerlink" href="#document-source" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id13">
+<caption><span class="caption-text">document_source</span><a class="headerlink" href="#id13" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>doc_source</p></td>
+<td><p>text</p></td>
+<td><p>Source of the pdf file</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="drug-modeof-action">
+<span id="tables-drug-modeof-action-label"></span><h1>drug_modeof_action<a class="headerlink" href="#drug-modeof-action" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id14">
+<caption><span class="caption-text">drug_modeof_action</span><a class="headerlink" href="#id14" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>drug_moa</p></td>
+<td><p>text</p></td>
+<td><p>Drug’s mode of action</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="exclusivity">
+<span id="tables-exclusivity-label"></span><h1>exclusivity<a class="headerlink" href="#exclusivity" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id15">
+<caption><span class="caption-text">exclusivity</span><a class="headerlink" href="#id15" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>exclusivity</p></td>
+<td><p>text</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="filename">
+<span id="tables-filename-label"></span><h1>filename<a class="headerlink" href="#filename" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id16">
+<caption><span class="caption-text">filename</span><a class="headerlink" href="#id16" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>filename</p></td>
+<td><p>text</p></td>
+<td><p>Name of the pdf file obtained from BiosciDB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="filename-link">
+<span id="tables-filename-link-label"></span><h1>filename_link<a class="headerlink" href="#filename-link" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id17">
+<caption><span class="caption-text">filename_link</span><a class="headerlink" href="#id17" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>filename_link</p></td>
+<td><p>text</p></td>
+<td><p>Url to the pdf file &#64; BiosciDB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="financial-term-explanations">
+<span id="tables-financial-term-explanations-label"></span><h1>financial_term_explanations<a class="headerlink" href="#financial-term-explanations" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id18">
+<caption><span class="caption-text">financial_term_explanations</span><a class="headerlink" href="#id18" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>financial_term_explanation</p></td>
+<td><p>text</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="indication">
+<span id="tables-indication-label"></span><h1>indication<a class="headerlink" href="#indication" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id19">
+<caption><span class="caption-text">indication</span><a class="headerlink" href="#id19" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>indication</p></td>
+<td><p>text</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="m-o-a-category">
+<span id="tables-m-o-a-category-label"></span><h1>m_o_a_category<a class="headerlink" href="#m-o-a-category" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id20">
+<caption><span class="caption-text">m_o_a_category</span><a class="headerlink" href="#id20" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>moa_category</p></td>
+<td><p>text</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="molecular-target">
+<span id="tables-molecular-target-label"></span><h1>molecular_target<a class="headerlink" href="#molecular-target" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id21">
+<caption><span class="caption-text">molecular_target</span><a class="headerlink" href="#id21" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>molecular_target</p></td>
+<td><p>text</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="org-category-link">
+<span id="tables-org-category-link-label"></span><h1>org_category_link<a class="headerlink" href="#org-category-link" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id22">
+<caption><span class="caption-text">org_category_link</span><a class="headerlink" href="#id22" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier</p></td>
+</tr>
+<tr class="row-odd"><td><p>uuid_org</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of organization in the deals data</p></td>
+</tr>
+<tr class="row-even"><td><p>uuid_category</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of organization category</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="organization">
+<span id="tables-organization-label"></span><h1>organization<a class="headerlink" href="#organization" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id23">
+<caption><span class="caption-text">organization</span><a class="headerlink" href="#id23" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_org</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of organization in the deals data</p></td>
+</tr>
+<tr class="row-odd"><td><p>org_name</p></td>
+<td><p>text</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="primary-doc">
+<span id="tables-primary-doc-label"></span><h1>primary_doc<a class="headerlink" href="#primary-doc" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id24">
+<caption><span class="caption-text">primary_doc</span><a class="headerlink" href="#id24" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>primary_doc</p></td>
+<td><p>text</p></td>
+<td><p>URL to primary deal data &#64; BiosciDB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="stage">
+<span id="tables-stage-label"></span><h1>stage<a class="headerlink" href="#stage" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id25">
+<caption><span class="caption-text">stage</span><a class="headerlink" href="#id25" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>stage</p></td>
+<td><p>text</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sub-technology">
+<span id="tables-sub-technology-label"></span><h1>sub_technology<a class="headerlink" href="#sub-technology" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id26">
+<caption><span class="caption-text">sub_technology</span><a class="headerlink" href="#id26" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>sub_technology</p></td>
+<td><p>text</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sub-territory">
+<span id="tables-sub-territory-label"></span><h1>sub_territory<a class="headerlink" href="#sub-territory" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id27">
+<caption><span class="caption-text">sub_territory</span><a class="headerlink" href="#id27" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>territory</p></td>
+<td><p>text</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="technology">
+<span id="tables-technology-label"></span><h1>technology<a class="headerlink" href="#technology" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id28">
+<caption><span class="caption-text">technology</span><a class="headerlink" href="#id28" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>technology</p></td>
+<td><p>text</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="territory">
+<span id="tables-territory-label"></span><h1>territory<a class="headerlink" href="#territory" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id29">
+<caption><span class="caption-text">territory</span><a class="headerlink" href="#id29" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_deal</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of deal</p></td>
+</tr>
+<tr class="row-odd"><td><p>territory</p></td>
+<td><p>text</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Manuel Gigena.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

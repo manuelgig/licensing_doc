@@ -1,0 +1,64 @@
+.. _introduction-desc-label:
+
+Introduction
+------------
+
+This database contains rich, detailed information about:
+  * 9k+ deals in the pharmaceutical sector, involving 4k+
+    different organizations (companies, universities, research centers, etc.);
+  * contracts from those deals;
+  * patents involved in a deal-contract tuple (henceforth "patent lists").
+
+We obtained the raw data (deal data, contracts and patent lists) from BiosciDB.
+First, we obtained data about 9,197 deals from BiosciDB. Then, we used a
+comprehensive list of pharmaceutical companies (258 focal
+firms, including ownership structure and thus subsidiaries)
+(citation needed?), to identify deals that involved these companies and
+to retrieve from BiosciDB the contracts and patent lists from such deals.
+
+.. admonition:: BiosciDB
+
+  BiosciDB is a company that developed and maintains *"the most comprehensive
+  peer-reviewed reference database on biopharma alliances"*.
+  The company curates a large database of biopharma deals, and obtains
+  contracts such as those in our database from data released by the SEC
+  (redacted and unredacted contracts), and through FOIA requests.
+
+.. admonition:: Focal firm
+
+  We use the term *focal firm* to refer to one of the 258 pharmaceutical
+  companies (or their subsidiaries) in the list of parent companies that we
+  used to retrieve deals.
+
+  Table src.:ref:`tables-pharma_consolidation-label` contains the parent firms
+  (n=258) and their subsidiaries (n=4844).
+
+
+The database is therefore organized around three nodes: deals, contracts, and
+patent lists:
+
+#. Deal data includes deal size, deal type, parties, royalties, technology,
+   territory, etc.
+#. Contract data includes contract text segmented in clauses using machine
+   learning, clause labels, named entities extracted from the text, as well
+   as another text-based indicators.
+#. patent lists contain the patents listed in a contract's annex, appendix or
+   exhibit (although the patent lists originate in a contract, we treat contracts
+   and patent lists separately)
+
+Most of the deals in the database generate a {deal, contract, patent list} tuple.
+However, some deals may be linked to several contracts, not all contracts
+have an patent list, and some patent list are not linked to a contract nor a deal. More
+importantly, while there are many different deal types (e.g., licensing,
+cross-licensing, co-marketing, acquisition), the database contains predominantly
+contracts from licensing deals. Contract and deal types are not exclusive,
+however, and most contracts fit more than one category.
+
+.. warning::
+
+  We recommend limiting (statistical) analyses to deal-contract tuples involving
+  licensing deals and companies from our initial list of pharmaceutical (focal)
+  companies. The database should be representative for these deal and company
+  types. Other deal types and companies are present in the database, but we do
+  not expect the data to be representative for them (e.g., some companies
+  are in the database only because they signed deals with our focal companies).

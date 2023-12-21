@@ -1,0 +1,7 @@
+--------
+Download
+--------
+
+You can find the latest release of the database
+`here <https://drive.google.com/drive/folders/1iDNShLQcBnwtYtO2zEFwuv6MI8WOwl9p>`_
+(PostgreSQL, elevation needed).

@@ -1,0 +1,79 @@
+.. _introduction-data-label:
+
+Data
+----
+
+.. _introduction-data-sources-label:
+
+Sources
+#######
+
+We obtained deal, contracts and patent lists from BiosciDB.
+
+.. _introduction-data-deal-label:
+
+Deals
+#####
+
+Deal data covers 9,197 deals in the pharmaceutical sector.
+Each deals is uniquely identified. Among other elements, deal data includes:
+
+* Deal size (in $M)
+* Deal dates
+* Deal type (e.g., license, research, co-development, termination,
+  distribution, etc.)
+* Contract type (e.g., license, joint venture, option, equity, etc.)
+* Name and type of parties (e.g., major biotech, top pharma, mid-tier pharma,
+  etc.)
+* Financial data (upfront payment, fees, equity, milestones, royalties, etc.)
+* Drug data: compound name, molecular target, indication, development stage,
+  technology,
+* Territory
+
+.. _introduction-data-contract-label:
+
+Contracts
+#########
+
+Raw contract data consists of 3802 pdf files. We could not extract the text
+from 19 contracts for different reasons (e.g., they are scanned images instead
+of text, they contain mostly transcription errors, etc.). We parsed the remaining
+contracts using machine learning and NLP techniques, so that for each contract
+we have:
+
+* the clauses, as separated pieces of text;
+* clause titles,
+* clause hierarchy: we sorted the classes into nested hierarchical levels using
+  clause indices, e.g. the clause "5. Payment [...]" contains "5.1. Royalties
+  [...]" and "5.2 Upfront fees [...]";
+* clause labels: we classified clauses into ~40 different types (e.g.,
+  definitions, payment, responsibility, termination, etc.)
+* named entities: we used NER tools to extract from each clause dates, durations,
+  money amounts, addresses, organization names, trademarks, and geolocations
+* patent: we developed a script to recognize and extract patent numbers
+  (applications and grants) from raw text, and applied it to identify patent
+  numbers *within* the contract text.
+
+Moreover, we organize the database in such a way that it is ready to perform
+text analysis at the clause level.
+
+We could link 3797 contracts with machine-readable text (i.e., that we could
+extract, not images) to deals.
+
+.. _introduction-data-iplist-label:
+
+patent lists
+########
+
+Raw patent list data consists of 3776 pdf files with lists of patents. Most patent list
+files are appendices or exhibits from a contract.
+
+.. _introduction-data-src-label:
+
+.. admonition:: deal-contract-patent list links
+
+  The relationships between deals, contracts and patent lists are somewhat complex
+  (one to many, many to one, deals without contracts, deals with patent list only,
+  patent lists not matched to deal or contract, etc.). The database includes
+  tables to facilitate working with these elements (e.g., src.deal_file_link,
+  src.file_info, etc.)

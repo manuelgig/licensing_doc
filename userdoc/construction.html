@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2. Construction &mdash; licensing 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/mystyle.css?v=d78a08c7" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js?v=e031e9a9"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="3. Description of tables" href="tables.html" />
+    <link rel="prev" title="1.4. Database Diagram" href="introduction/diagram.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            licensing
+              <img src="../_static/KULEUVEN_FEB_Logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="user_main.html">User Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="introduction/intro_main.html">1. The <em>licensing</em> database</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">2. Construction</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#parsing-deal-data">2.1. Parsing deal data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#extracting-text-from-pdf-files-of-contracts-and-patent-lists">2.2. Extracting text from pdf files of contracts and patent lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#segmenting-raw-text-into-sections">2.3. Segmenting raw text into sections</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#labelling-sections">2.4. Labelling sections</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#extracting-ner">2.5. Extracting NER</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linking-deal-organizations-and-pharma-consolidation-companies">2.6. Linking deal organizations and pharma_consolidation companies</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="tables.html">3. Description of tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sql_main.html">4. Using the PostgreSQL db</a></li>
+<li class="toctree-l2"><a class="reference internal" href="links.html">5. Links</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../download/dl_main.html">Download</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../github/git_main.html">Get the Git Repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">licensing</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="user_main.html">User Documentation</a></li>
+      <li class="breadcrumb-item active"><span class="section-number">2. </span>Construction</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/userdoc/construction.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="construction">
+<span id="construction-label"></span><h1><span class="section-number">2. </span>Construction<a class="headerlink" href="#construction" title="Permalink to this heading"></a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This section heavily under construction</p>
+</div>
+<section id="parsing-deal-data">
+<h2><span class="section-number">2.1. </span>Parsing deal data<a class="headerlink" href="#parsing-deal-data" title="Permalink to this heading"></a></h2>
+</section>
+<section id="extracting-text-from-pdf-files-of-contracts-and-patent-lists">
+<h2><span class="section-number">2.2. </span>Extracting text from pdf files of contracts and patent lists<a class="headerlink" href="#extracting-text-from-pdf-files-of-contracts-and-patent-lists" title="Permalink to this heading"></a></h2>
+</section>
+<section id="segmenting-raw-text-into-sections">
+<h2><span class="section-number">2.3. </span>Segmenting raw text into sections<a class="headerlink" href="#segmenting-raw-text-into-sections" title="Permalink to this heading"></a></h2>
+<p>[lexnlp section parser (regex and machine learning) + custom algorithms to
+segmentation quality, inference of section level, etc]</p>
+</section>
+<section id="labelling-sections">
+<h2><span class="section-number">2.4. </span>Labelling sections<a class="headerlink" href="#labelling-sections" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Extract section titles</p></li>
+<li><p>Labelling pipeline</p></li>
+</ul>
+</section>
+<section id="extracting-ner">
+<h2><span class="section-number">2.5. </span>Extracting NER<a class="headerlink" href="#extracting-ner" title="Permalink to this heading"></a></h2>
+<p>[With lexnlp and custom functions]</p>
+</section>
+<section id="linking-deal-organizations-and-pharma-consolidation-companies">
+<h2><span class="section-number">2.6. </span>Linking deal organizations and pharma_consolidation companies<a class="headerlink" href="#linking-deal-organizations-and-pharma-consolidation-companies" title="Permalink to this heading"></a></h2>
+<span class="target" id="id1"></span></section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="introduction/diagram.html" class="btn btn-neutral float-left" title="1.4. Database Diagram" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="tables.html" class="btn btn-neutral float-right" title="3. Description of tables" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Manuel Gigena.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

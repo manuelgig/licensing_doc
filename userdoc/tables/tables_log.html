@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iparse_log &mdash; licensing 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/mystyle.css?v=d78a08c7" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js?v=e031e9a9"></script>
+        <script src="../../_static/doctools.js?v=888ff710"></script>
+        <script src="../../_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            licensing
+              <img src="../../_static/KULEUVEN_FEB_Logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../user_main.html">User Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../download/dl_main.html">Download</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../github/git_main.html">Get the Git Repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">licensing</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">iparse_log</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/userdoc/tables/tables_log.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="iparse-log">
+<span id="tables-iparse-log-label"></span><h1>iparse_log<a class="headerlink" href="#iparse-log" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id1">
+<caption><span class="caption-text">iparse_log</span><a class="headerlink" href="#id1" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_file</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of pdf file</p></td>
+</tr>
+<tr class="row-odd"><td><p>parse_function</p></td>
+<td><p>character varying</p></td>
+<td><p>Function/module used to extract NERs from text</p></td>
+</tr>
+<tr class="row-even"><td><p>parsed_table</p></td>
+<td><p>character varying</p></td>
+<td><p>Table with contract segments used to extract NERs (e.g., section, paragraph, etc)</p></td>
+</tr>
+<tr class="row-odd"><td><p>status</p></td>
+<td><p>integer</p></td>
+<td><p>Code that indicates the outcome of a task such as parsing, preprocessing, etc.</p></td>
+</tr>
+<tr class="row-even"><td><p>time</p></td>
+<td><p>timestamp without time zone</p></td>
+<td><p>Time when the task was performed</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="json-parse-log">
+<span id="tables-json-parse-log-label"></span><h1>json_parse_log<a class="headerlink" href="#json-parse-log" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id2">
+<caption><span class="caption-text">json_parse_log</span><a class="headerlink" href="#id2" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>uuid_file</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of pdf file</p></td>
+</tr>
+<tr class="row-odd"><td><p>src_json_filename</p></td>
+<td><p>text</p></td>
+<td><p>Name of the json file that contains data extracted from a pdf file</p></td>
+</tr>
+<tr class="row-even"><td><p>src_batch_folder</p></td>
+<td><p>text</p></td>
+<td><p>Name of the folder that contains a batch of pdf files</p></td>
+</tr>
+<tr class="row-odd"><td><p>creation_date</p></td>
+<td><p>timestamp without time zone</p></td>
+<td><p>Date of creation of the pdf file (extracted from pdf metadata)</p></td>
+</tr>
+<tr class="row-even"><td><p>last_modified</p></td>
+<td><p>timestamp without time zone</p></td>
+<td><p>Date of last modification of the pdf file (extracted from pdf metadata)</p></td>
+</tr>
+<tr class="row-odd"><td><p>last_save_date</p></td>
+<td><p>timestamp without time zone</p></td>
+<td><p>Date of last save of the pdf file (extracted from pdf metadata)</p></td>
+</tr>
+<tr class="row-even"><td><p>nr_pages</p></td>
+<td><p>integer</p></td>
+<td><p>Number of pages in the pdf file</p></td>
+</tr>
+<tr class="row-odd"><td><p>has_sentence_paragraph_link</p></td>
+<td><p>integer</p></td>
+<td><p><em>DATED</em> (to be removed)</p></td>
+</tr>
+<tr class="row-even"><td><p>status</p></td>
+<td><p>integer</p></td>
+<td><p>Code that indicates the outcome of a task such as parsing, preprocessing, etc.</p></td>
+</tr>
+<tr class="row-odd"><td><p>char_count</p></td>
+<td><p>integer</p></td>
+<td><p>Total number of characters in the text extracted from the pdf file</p></td>
+</tr>
+<tr class="row-even"><td><p>time</p></td>
+<td><p>timestamp without time zone</p></td>
+<td><p>Time when the task was performed</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="pdf-parse-log">
+<span id="tables-pdf-parse-log-label"></span><h1>pdf_parse_log<a class="headerlink" href="#pdf-parse-log" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id3">
+<caption><span class="caption-text">pdf_parse_log</span><a class="headerlink" href="#id3" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>src_batch_folder</p></td>
+<td><p>text</p></td>
+<td><p>Name of the folder that contains a batch of pdf files</p></td>
+</tr>
+<tr class="row-odd"><td><p>src_filename</p></td>
+<td><p>text</p></td>
+<td><p>Name of the pdf file obtained from BiosciDB</p></td>
+</tr>
+<tr class="row-even"><td><p>uuid_file</p></td>
+<td><p>character varying</p></td>
+<td><p>Unique identifier of pdf file</p></td>
+</tr>
+<tr class="row-odd"><td><p>parse_time</p></td>
+<td><p>timestamp without time zone</p></td>
+<td><p>Time the NER task was performed</p></td>
+</tr>
+<tr class="row-even"><td><p>nr_pages</p></td>
+<td><p>integer</p></td>
+<td><p>Number of pages in the pdf file</p></td>
+</tr>
+<tr class="row-odd"><td><p>status</p></td>
+<td><p>integer</p></td>
+<td><p>Code that indicates the outcome of a task such as parsing, preprocessing, etc.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="status-info">
+<span id="tables-status-info-label"></span><h1>status_info<a class="headerlink" href="#status-info" title="Permalink to this heading"></a></h1>
+<table class="docutils align-default" id="id4">
+<caption><span class="caption-text">status_info</span><a class="headerlink" href="#id4" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 12.5%" />
+<col style="width: 62.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>column_name</p></th>
+<th class="head"><p>data_type</p></th>
+<th class="head"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>status</p></td>
+<td><p>integer</p></td>
+<td><p>Code that indicates the outcome of a task such as parsing, preprocessing, etc.</p></td>
+</tr>
+<tr class="row-odd"><td><p>description</p></td>
+<td><p>character varying</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Manuel Gigena.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

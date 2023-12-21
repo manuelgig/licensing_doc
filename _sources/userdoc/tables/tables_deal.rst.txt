@@ -1,0 +1,376 @@
+
+
+.. _tables-attached_document_types-label:
+
+attached_document_types
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table:: attached_document_types
+   :file: csv/attached_document_types.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-category-label:
+
+category
+^^^^^^^^
+
+.. csv-table:: category
+   :file: csv/category.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-compound_name-label:
+
+compound_name
+^^^^^^^^^^^^^
+
+.. csv-table:: compound_name
+   :file: csv/compound_name.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-contract_type-label:
+
+contract_type
+^^^^^^^^^^^^^
+
+.. csv-table:: contract_type
+   :file: csv/contract_type.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-deal-label:
+
+deal
+^^^^
+
+.. csv-table:: deal
+   :file: csv/deal.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-deal_link-label:
+
+deal_link
+^^^^^^^^^
+
+.. csv-table:: deal_link
+   :file: csv/deal_link.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-deal_org_link-label:
+
+deal_org_link
+^^^^^^^^^^^^^
+
+.. csv-table:: deal_org_link
+   :file: csv/deal_org_link.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-deal_source-label:
+
+deal_source
+^^^^^^^^^^^
+
+.. csv-table:: deal_source
+   :file: csv/deal_source.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-deal_subject-label:
+
+deal_subject
+^^^^^^^^^^^^
+
+.. csv-table:: deal_subject
+   :file: csv/deal_subject.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-deal_types-label:
+
+deal_types
+^^^^^^^^^^
+
+.. csv-table:: deal_types
+   :file: csv/deal_types.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-disease-label:
+
+disease
+^^^^^^^
+
+.. csv-table:: disease
+   :file: csv/disease.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-doc_sum-label:
+
+doc_sum
+^^^^^^^
+
+.. csv-table:: doc_sum
+   :file: csv/doc_sum.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-document_source-label:
+
+document_source
+^^^^^^^^^^^^^^^
+
+.. csv-table:: document_source
+   :file: csv/document_source.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-drug_modeof_action-label:
+
+drug_modeof_action
+^^^^^^^^^^^^^^^^^^
+
+.. csv-table:: drug_modeof_action
+   :file: csv/drug_modeof_action.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-exclusivity-label:
+
+exclusivity
+^^^^^^^^^^^
+
+.. csv-table:: exclusivity
+   :file: csv/exclusivity.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-filename-label:
+
+filename
+^^^^^^^^
+
+.. csv-table:: filename
+   :file: csv/filename.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-filename_link-label:
+
+filename_link
+^^^^^^^^^^^^^
+
+.. csv-table:: filename_link
+   :file: csv/filename_link.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-financial_term_explanations-label:
+
+financial_term_explanations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table:: financial_term_explanations
+   :file: csv/financial_term_explanations.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-indication-label:
+
+indication
+^^^^^^^^^^
+
+.. csv-table:: indication
+   :file: csv/indication.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-m_o_a_category-label:
+
+m_o_a_category
+^^^^^^^^^^^^^^
+
+.. csv-table:: m_o_a_category
+   :file: csv/m_o_a_category.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-molecular_target-label:
+
+molecular_target
+^^^^^^^^^^^^^^^^
+
+.. csv-table:: molecular_target
+   :file: csv/molecular_target.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-org_category_link-label:
+
+org_category_link
+^^^^^^^^^^^^^^^^^
+
+.. csv-table:: org_category_link
+   :file: csv/org_category_link.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-organization-label:
+
+organization
+^^^^^^^^^^^^
+
+.. csv-table:: organization
+   :file: csv/organization.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-primary_doc-label:
+
+primary_doc
+^^^^^^^^^^^
+
+.. csv-table:: primary_doc
+   :file: csv/primary_doc.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-stage-label:
+
+stage
+^^^^^
+
+.. csv-table:: stage
+   :file: csv/stage.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-sub_technology-label:
+
+sub_technology
+^^^^^^^^^^^^^^
+
+.. csv-table:: sub_technology
+   :file: csv/sub_technology.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-sub_territory-label:
+
+sub_territory
+^^^^^^^^^^^^^
+
+.. csv-table:: sub_territory
+   :file: csv/sub_territory.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-technology-label:
+
+technology
+^^^^^^^^^^
+
+.. csv-table:: technology
+   :file: csv/technology.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-territory-label:
+
+territory
+^^^^^^^^^
+
+.. csv-table:: territory
+   :file: csv/territory.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1

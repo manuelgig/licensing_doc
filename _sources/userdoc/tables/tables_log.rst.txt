@@ -1,0 +1,51 @@
+
+
+.. _tables-iparse_log-label:
+
+iparse_log
+^^^^^^^^^^
+
+.. csv-table:: iparse_log
+   :file: csv/iparse_log.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-json_parse_log-label:
+
+json_parse_log
+^^^^^^^^^^^^^^
+
+.. csv-table:: json_parse_log
+   :file: csv/json_parse_log.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-pdf_parse_log-label:
+
+pdf_parse_log
+^^^^^^^^^^^^^
+
+.. csv-table:: pdf_parse_log
+   :file: csv/pdf_parse_log.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-status_info-label:
+
+status_info
+^^^^^^^^^^^
+
+.. csv-table:: status_info
+   :file: csv/status_info.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1

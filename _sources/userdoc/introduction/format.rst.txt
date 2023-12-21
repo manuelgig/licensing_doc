@@ -1,0 +1,6 @@
+.. _introduction-format-label:
+
+Format
+------
+
+We created the database as a relational PostgreSQL database.

@@ -1,0 +1,272 @@
+
+
+.. _tables-address-label:
+
+address
+^^^^^^^
+
+.. csv-table:: address
+   :file: csv/address.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-company-label:
+
+company
+^^^^^^^
+
+.. csv-table:: company
+   :file: csv/company.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-date-label:
+
+date
+^^^^
+
+.. csv-table:: date
+   :file: csv/date.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-deal_file_link-label:
+
+deal_file_link
+^^^^^^^^^^^^^^
+
+.. csv-table:: deal_file_link
+   :file: csv/deal_file_link.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-distance-label:
+
+distance
+^^^^^^^^
+
+.. csv-table:: distance
+   :file: csv/distance.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-duration-label:
+
+duration
+^^^^^^^^
+
+.. csv-table:: duration
+   :file: csv/duration.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-file-label:
+
+file
+^^^^
+
+.. csv-table:: file
+   :file: csv/file.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-file_info-label:
+
+file_info
+^^^^^^^^^
+
+.. csv-table:: file_info
+   :file: csv/file_info.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-geoentity-label:
+
+geoentity
+^^^^^^^^^
+
+.. csv-table:: geoentity
+   :file: csv/geoentity.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-money-label:
+
+money
+^^^^^
+
+.. csv-table:: money
+   :file: csv/money.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-patent-label:
+
+patent
+^^^^^^
+
+.. csv-table:: patent
+   :file: csv/patent.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-pharma_consolidation-label:
+
+pharma_consolidation
+^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table:: pharma_consolidation
+   :file: csv/pharma_consolidation.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-pharma_org_link-label:
+
+pharma_org_link
+^^^^^^^^^^^^^^^
+
+.. csv-table:: pharma_org_link
+   :file: csv/pharma_org_link.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-pii-label:
+
+pii
+^^^
+
+.. csv-table:: pii
+   :file: csv/pii.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-section-label:
+
+section
+^^^^^^^
+
+.. csv-table:: section
+   :file: csv/section.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-section_label-label:
+
+section_label
+^^^^^^^^^^^^^
+
+.. csv-table:: section_label
+   :file: csv/section_label.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-section_nested_level-label:
+
+section_nested_level
+^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table:: section_nested_level
+   :file: csv/section_nested_level.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-section_title-label:
+
+section_title
+^^^^^^^^^^^^^
+
+.. csv-table:: section_title
+   :file: csv/section_title.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-section_title_link-label:
+
+section_title_link
+^^^^^^^^^^^^^^^^^^
+
+.. csv-table:: section_title_link
+   :file: csv/section_title_link.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-section_title_match-label:
+
+section_title_match
+^^^^^^^^^^^^^^^^^^^
+
+.. csv-table:: section_title_match
+   :file: csv/section_title_match.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1
+
+
+
+.. _tables-trademark-label:
+
+trademark
+^^^^^^^^^
+
+.. csv-table:: trademark
+   :file: csv/trademark.csv
+   :delim: ;
+   :widths: 8, 4, 20
+   :header-rows: 1

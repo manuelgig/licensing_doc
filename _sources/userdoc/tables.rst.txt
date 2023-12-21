@@ -1,0 +1,28 @@
+.. _tables-label:
+
+Description of tables
+=====================
+
+The tables of the database are grouped in three schemas:
+
+* *log:* tables that log when and how the different preprocessing and parsing
+  tasks took place
+* *deal:* tables that record deal data
+* *src:* tables with data extracted from the pdf files (contracts, ip lists),
+  data derived from them (sections, section labels, NER), and other tables
+  such as focal company names and ownership structure.
+
+Schema: log
+-----------
+
+.. include:: tables/tables_log.rst
+
+Schema: deal
+------------
+
+.. include:: tables/tables_deal.rst
+
+Schema: src
+------------
+
+.. include:: tables/tables_src.rst

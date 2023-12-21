@@ -1,0 +1,7 @@
+.. _introduction-structure-label:
+
+Database Diagram
+----------------
+
+.. image:: biopharm_contracts_v1.0.drawio.png
+   :width: 600

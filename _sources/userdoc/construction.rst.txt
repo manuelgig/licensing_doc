@@ -1,0 +1,36 @@
+.. _construction-label:
+
+Construction
+============
+
+.. warning::
+
+  This section heavily under construction
+
+Parsing deal data
+-----------------
+
+Extracting text from pdf files of contracts and patent lists
+------------------------------
+
+Segmenting raw text into sections
+---------------------------------
+
+[lexnlp section parser (regex and machine learning) + custom algorithms to
+segmentation quality, inference of section level, etc]
+
+Labelling sections
+------------------
+
+* Extract section titles
+* Labelling pipeline
+
+Extracting NER
+--------------
+
+[With lexnlp and custom functions]
+
+Linking deal organizations and pharma_consolidation companies
+-------------------------------------------------------------
+
+.. bibliography::

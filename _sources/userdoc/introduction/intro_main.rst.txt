@@ -1,0 +1,14 @@
+.. _introduction-label:
+
+The *licensing* database
+========================
+
+This section contains a brief introduction to the database, including a
+description of its contents and sources.
+
+.. toctree::
+
+    intro
+    data
+    format
+    diagram
